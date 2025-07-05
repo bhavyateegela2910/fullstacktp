@@ -1,6 +1,73 @@
-<h1>the</h1>
-<h2>to</h2>
-<h3>way</h3>
-<h4>pin</h4>
-<h5>nnmm</h5>
-<h6>mmm</h6>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form</title>
+</head>
+<body>
+    <h1> ==========STUDENT LOGIN FORM==========</h1>
+    <form action="submit.html" method="post">
+        <!--Name Input-->
+        <label for="name">Full Name </label><br>
+        <input type="text" id="name" name="firstname" plac" required>
+        <input type="text" id="name" name="fullname" placeholder="Enter your name" required>
+
+        <!--Email-->
+        <label for="email">Email       :</label>
+        <input type="text" id="email" name="email" placeholder="Enter email id" required><br>
+        <label for="phn no">phone no   :</label>
+        <input type="int" id="phn no" name="phn no" placeholder="Enter phone number" required><br>
+        <!--Radio button-->
+        <label for="Gender">Gender :
+        </label><br>
+        <label for="Female">Female</label>
+        <input type="radio" id="Gender" name="Gender" value="Female"><br>
+        <label for="male">male</label>
+        <input type="radio" id="Gender" name="Gender" value="male"><br>
+        <label for="other">other</label>
+        <input type="radio" id="Gender" name="Gender" value="other"><br>
+        <!--Radio button-->
+        <label for="Gender">Gender :
+        </label><br>
+        <label for="Female">Female</label>
+        <input type="radio" id="Gender" name="Female" value="Female"><br>
+        <label for="male">male</label>
+        <input type="radio" id="Gender" name="male" value="male"><br>
+        <label for="other">other</label>
+        <input type="radio" id="Gender" name="other" value="other"><br>
+        <!--checkbox-->
+        <label for="Skills">Skills</label><br>
+        <input type="checkbox"  name="c" value="c">
+        <label for="c">c</label><br>
+        <input type="checkbox" name="java" value="java">
+        <label for="java">java</label><br>
+        
+        <input type="checkbox"  name="c++" value="c++">
+        <label for="c++">c++</label><br>
+        <input type="checkbox" name="python" value="python">
+        <label for="python">python</label><br><br>
+        <!--Drop down-->
+        <label for="Course">Course:</label>
+        <select id="course" name="course">
+            <option value="css">css</option>
+            <option value="js">js</option>
+            <option value="HTML">HTML</option>
+            <option value="sql">sql</option>
+        
+        
+        </select><br>
+        <!--Text Area-->
+        <label for="Feedback">Feedback</label><br>
+        <textarea id="message" name="message" rows="4" columns="3" placeholder="type here"></textarea><br><br>
+        <!--button-->
+        <button name="submit">submit</button>
+        <button name="reset">reset</button>
+
+        
+        
+        
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,32 @@
+body{
+    background-image:url("https://tse2.mm.bing.net/th/id/OIP.Mdk4w3dvSDgqj3Pi5glPVgHaEK?pid=Api&P=0&h=180") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: end;
+    
+}
+button{
+    background-color: red;
+}
+.email{
+    text-align: center;
+}
+#num{
+    position=absolute;
+    bottom: 1000px; 
+    left: 1000px;
+    color: aliceblue;
+    text-align: left;
+    font-size: 40px;
+}
+.n1,.n2,.n3,.n4,.n5,.n6{
+    position:absolute;
+    font-size: 70px;
+    bottom: -250px;
+    color:antiquewhite
+
+}
+img:hover{
+    transform: scale(0.9);
+}
